@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MY Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+</head>
+<body>
+  <!-- Header -->
+  <header class="hero" id="navbar">
+    <nav class="navbar">
+      <h1 class="logo"></h1>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="toggle-dark-mode">🌙</button>
+    </nav><br>
+    <div class="hero-content">
+      <h2>Hello, I'm <span>KALYAN CHEBROLU</span></h2>
+      <p>WEB DEVELOPER</p>
+      <a href="#projects" class="btn">View My Work</a>
+    </div>
+  </header>
+
+  <main>
+    <!-- About Section -->
+    <section id="about" class="about" data-aos="fade-up">
+      <h2>About Me</h2><br>
+      <p>
+        I am a Web Developer with expertise in modern web technologies. My passion is delivering exceptional websites.
+      </p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills" data-aos="fade-up">
+      <h2>My Skills: </h2><br>
+      <div class="skill">
+        <p>HTML</p>
+        <div class="progress-bar">
+          <div class="progress" data-skill="90"></div>
+        </div>
+      </div>
+      <div class="skill">
+        <p>CSS</p>
+        <div class="progress-bar">
+          <div class="progress" data-skill="85"></div>
+        </div>
+      </div>
+      <div class="skill">
+        <p>JavaScript</p>
+        <div class="progress-bar">
+          <div class="progress" data-skill="75"></div>
+        </div>
+      </div>
+       <div class="skill">
+        <p>PYTHON</p>
+        <div class="progress-bar">
+          <div class="progress" data-skill="70"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+      <h2>My Projects</h2><br>
+      <div class="project-grid">
+        <div class="project-card" data-aos="zoom-in" data-id="1">
+          <h3>Project 1</h3><br>
+          <p>Modern Portfolio</p>
+          <button class="view-details-btn">View Details</button>
+        </div>
+        <div class="project-card" data-aos="zoom-in" data-id="2">
+          <h3>Project 2</h3><br>
+          <p>Movie App</p>
+          <button class="view-details-btn">View Details</button>
+        </div>
+      
+      <div class="project-card" data-aos="zoom-in" data-id="2">
+        <h3>Project 3</h3><br>
+        <p>Quiz App
+        </p>
+        <button class="view-details-btn">View Details</button>
+      </div>
+    
+    <div class="project-card" data-aos="zoom-in" data-id="2">
+        <h3>Project 4</h3><br>
+        <p>Weather App</p>
+        <button class="view-details-btn">View Details</button>
+      </div>
+    </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials" data-aos="fade-up">
+      <h2>Testimonials</h2><br>
+      <div class="carousel">
+        <div class="testimonial">
+          <p>"kalyan is an exceptional developer who consistently delivers top-quality work."</p>
+          <h4>- Client A</h4>
+        </div>
+        <div class="testimonial">
+          <p>"Amazing skills and creativity. Highly recommended!"</p>
+          <h4>- Client B</h4>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact" data-aos="fade-up">
+      <h2>Contact Me</h2><br>
+      <form id="contact-form">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <!-- Modal -->
+  <div class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <div class="modal-body">
+        <h3>Project Details</h3>
+        <p>Details about the selected project will go here.</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script src="script.js"></script>
+  
+</body>
+</html>
